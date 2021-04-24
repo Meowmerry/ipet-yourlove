@@ -1,0 +1,162 @@
+#profile-match-container {
+  border: 0px solid;
+  padding: 25px 20px 0px;
+  margin-bottom: 30px;
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+#profile-container {
+  border: 0px solid;
+  border-radius: 10px;
+  padding: 10px 10px 10px;
+  height: auto;
+  background-color: #002038;
+  // background: rgb(252, 218, 217) url(https://www.wallpaperback.net/wp-content/uploads/2018/07/Wallpaper%20kitten,%20cute%20animals,%205k,%20Animals%207673317384.jpg) ;
+}
+#profile-container > div {
+  //   border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+}
+#profile-container > div > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-card > .ant-card-body {
+  padding: 30px 15px;
+}
+.profile-card > .ant-card-body > div {
+  display: flex;
+  margin: 20px 20px;
+}
+
+#job-container {
+  // border: 1px solid;
+  padding: 10px;
+  height: 700px;
+  overflow: auto;
+  // background: rgb(252, 218, 217) url(https://www.wallpaperback.net/wp-content/uploads/2018/07/Wallpaper%20kitten,%20cute%20animals,%205k,%20Animals%207673317384.jpg) ;
+}
+
+#job-container .ant-tabs-nav > div > div {
+  border: 0px solid !important;
+  width: 20%;
+  min-width: 200px;
+  text-align: center;
+}
+
+.calendar-frame {
+  // border: 1px solid;
+  padding: 10px;
+}
+
+.job-calendar > .ant-fullcalendar-header > .ant-radio-group {
+  display: none;
+}
+
+#top-content-myjob {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  margin-bottom: 10px;
+}
+#top-content-myjob-step {
+  // border: 1px solid;
+  padding: 10px 20px 10px 10px;
+  width: 100%;
+}
+
+.ant-fullcalendar-date {
+  height: 60px !important;
+}
+
+.jobcard {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.double-calendar {
+  text-align: center;
+  padding: 10px 10px 0px;
+}
+.double-calendar > span {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.myjob-info-frame {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.month-picker {
+  width: 200px;
+}
+
+@media only screen and (max-width: 900px) {
+  #profile-match-container {
+    grid-template-columns: 45% 55%;
+  }
+  #top-content-myjob {
+    display: grid;
+    grid-template-columns: 100%;
+    margin-bottom: 10px;
+  }
+  .myjob-info-frame {
+    grid-template-columns: 100%;
+  }
+  .month-picker {
+    margin-top: 15px !important;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  #profile-match-container {
+    grid-template-columns: 100%;
+  }
+  #profile-container {
+    margin: 0px auto 20px;
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  #profile-container {
+    margin: 0px auto 20px;
+    width: 90%;
+  }
+}
+
+.profile-card {
+  justify-content: start !important;
+  font-weight: bold;
+  text-align: left;
+  width: 90%;
+  margin: auto;
+  border-radius: 3px;
+}
+
+.profile-card > .ant-card-body {
+  width: 100%;
+}
+
+.avatar-profile {
+  border: 5px solid #ebac43;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.ant-tabs-tab-active {
+    background-color: #ebac43 !important;
+    color: white !important;
+    border: transparent;
+}
+
+
+// .ant-tabs-ink-bar .ant-tabs-ink-bar-animated {
+//     color: #002038;
+// }

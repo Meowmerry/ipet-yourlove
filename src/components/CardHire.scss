@@ -1,0 +1,15 @@
+.cardhire {
+    width: 49%;
+    margin-bottom: 10px !important;
+    border-radius: 15px 0px !important;
+}
+.cardhire > .ant-card-head {
+    border-radius: 15px 0px 0px 0px;
+   background-color: #f2f2f2; 
+}
+
+@media only screen and (max-width: 1000px) {
+    .cardhire {
+        width: 100%;
+    }
+}

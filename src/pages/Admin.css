@@ -1,0 +1,41 @@
+.ant-table-thead > tr > th {
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  background-color: #002038;
+  padding: 10px 0 10px 50px;
+}
+
+.ant-table-tbody > tr > td {
+  padding: 15px 0 15px 50px;
+}
+
+.adminTab .ant-tabs-tab {
+  margin: 10px 10px 0px !important;
+}
+
+.Admin_containerAdmin__38dHR .ant-tabs-bar {
+  margin-bottom: 0px;
+}
+
+.containerAdmin > .Admin_adminview__1NIif {
+  height: 30px;
+}
+
+.Admin_containerAdmin__ocSFb .ant-tabs-bar {
+  margin-bottom: 0px;
+}
+
+/* .ant-tabs-ink-bar .ant-tabs-ink-bar-animated {
+    color: #002038;
+} */
+
+@media only screen and (max-width: 650px) {
+    .ant-table-thead > tr > th {
+        padding: 10px 0 10px 10px;
+      }
+      
+      .ant-table-tbody > tr > td {
+        padding: 15px 0 15px 10px;
+      }
+}

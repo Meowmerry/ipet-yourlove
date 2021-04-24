@@ -1,0 +1,46 @@
+.container-findjobs {
+    border: px solid;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 50px auto;
+    width: 50%;
+    -webkit-box-shadow: 0px 0px 3px #696969;
+    -moz-box-shadow: 0px 0px 3px #696969;
+    box-shadow: 0px 0px 3px #696969;
+}
+
+.container-findjobs > .container-findjobs-step {
+    border: 0px solid;
+    min-height: 200px;
+    overflow: hidden;
+}
+
+.container-findjobs > .container-findjobs-step > .steps-action {
+    border: 0px solid;
+    margin-top: 60px;
+}
+
+.container-findjobs > .container-findjobs-step > .steps-content {
+    border: 0px solid;
+    min-height: 200px;
+}
+
+.container-findjobs > .container-findjobs-step > .steps-content > 
+.ant-fullcalendar-fullscreen > .ant-fullcalendar-header > .ant-radio-group {
+    visibility: hidden;
+}
+
+@media only screen and (max-width: 900px) {
+    .container-findjobs {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .container-findjobs {
+        width: 80%;
+    }
+    .container-findjobs > .container-findjobs-step > .steps-action {
+        margin-top: 90px;
+    }
+}

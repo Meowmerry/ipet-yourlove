@@ -1,0 +1,31 @@
+#container-footer {
+  background: #002038;
+  width: 100%;
+  bottom: 0;
+  color: white;
+  position: sticky;
+  z-index: 5;
+}
+.footer {
+  margin: 8px;
+}
+.logo-footer {
+  height: 20px;
+  img {
+    height: 100%;
+  }
+}
+.copyright {
+  font-size: 12px;
+}
+
+@media only screen and (max-width: 410px) {
+    .copyright {
+        font-size: 10px;
+      }
+}
+@media only screen and (max-width: 360px) {
+    .copyright {
+        font-size: 8px;
+      }
+}

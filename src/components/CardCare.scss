@@ -1,0 +1,33 @@
+.filterCare > .ant-card > .ant-card-body {
+  padding: 0px;
+}
+
+.filterCare > .ant-card {
+  margin-bottom: 10px;
+}
+
+.ant-collapse-header {
+  padding: 0px 40px !important;
+}
+
+.container-cardcare {
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+.btn-no-yes {
+  text-align: right;
+  margin: 5px;
+  button {
+    margin: 2px;
+    width: auto;
+    height: auto;
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 13px;
+  }
+}
+
+.please-choose {
+  color: red;
+  font-size: 11px;
+}

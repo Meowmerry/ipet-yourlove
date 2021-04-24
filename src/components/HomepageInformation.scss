@@ -1,0 +1,97 @@
+#service {
+  -webkit-animation: tracking-in-contract-bck-top 1s
+    cubic-bezier(0.215, 0.61, 0.355, 1) both;
+  animation: tracking-in-contract-bck-top 1s cubic-bezier(0.215, 0.61, 0.355, 1)
+    both;
+  justify-content: center;
+  font-size: 2rem;
+  color: #002038;
+  margin-bottom: 2px;
+  font-weight: bold;
+}
+
+@-webkit-keyframes tracking-in-contract-bck-top {
+  0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(400px) translateY(-300px);
+    transform: translateZ(400px) translateY(-300px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0) translateY(0);
+    transform: translateZ(0) translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes tracking-in-contract-bck-top {
+  0% {
+    letter-spacing: 1em;
+    -webkit-transform: translateZ(400px) translateY(-300px);
+    transform: translateZ(400px) translateY(-300px);
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    -webkit-transform: translateZ(0) translateY(0);
+    transform: translateZ(0) translateY(0);
+    opacity: 1;
+  }
+}
+
+@media (max-width: 650px) {
+  #service {
+    font-size: 1.5rem;
+    font-weight: bolder;
+  }
+}
+
+.underline--magical {
+  background-image: linear-gradient(80deg, #fdfdfde3 0%, #77ddff 80%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.2em;
+  background-position: 0 88%;
+  transition: background-size 0.25s ease-in;
+  text-align: center;
+  margin-top: 12px;
+}
+.underline--magical:hover {
+  background-size: 100% 88%;
+}
+
+.textH2 {
+  justify-content: center;
+  font-size: 1.2rem;
+  color: #ebac43;
+  margin: 5%;
+  font-weight: bolder;
+}
+
+@media (max-width: 650px) {
+  #textH2 {
+    font-size: 1rem;
+  }
+}
+.serviceCard > .ant-card-body {
+  padding: 3px !important;
+  transition: all 0.3s;  
+  border-radius: 10px !important;
+  width: 100%;
+  height: 100%;
+  :hover {
+    transform: scale(1.02);
+  }
+}
+
+.class-img {
+  border-radius: 8px;
+  margin: 5px;
+}
+
+.classRow {
+  margin: 20px 10px 5px 10px;
+}

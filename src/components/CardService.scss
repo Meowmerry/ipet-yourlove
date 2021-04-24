@@ -1,0 +1,32 @@
+.card-service {
+    border-radius: 15px 0px;
+    width: 49%; 
+    margin-bottom: 20px;
+}
+
+.card-service > .ant-card-body{
+    overflow: auto ;
+    height: 120px;
+}
+
+.card-service > .ant-card-head {
+    border-radius: 15px 0px 0px 0px;
+    background-color: #f2f2f2;
+}
+
+.ant-card-extra {
+    padding: 0px;
+    margin-top: -40px;
+}
+
+.customerAvatar {
+    -webkit-box-shadow: 0px 0px 5px #000000;
+    -moz-box-shadow: 0px 0px 5px #000000;
+    box-shadow: 0px 0px 5px #000000;
+}
+
+@media only screen and (max-width: 900px) {
+    .card-service {
+        width: 100%;
+    }
+}

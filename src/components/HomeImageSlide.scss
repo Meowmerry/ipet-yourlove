@@ -1,0 +1,29 @@
+.container-slide-image {
+  margin: 50;
+  width: 100%;
+}
+.each-image {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  img {
+		width: 100%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .each-image {
+    height: 400px;
+  }
+}
+@media only screen and (min-width: 700px) {
+  .each-image {
+    height: 550px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .each-image {
+    height: 250px;
+  }
+}

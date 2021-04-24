@@ -1,0 +1,31 @@
+.class-img-blog {
+    border-radius: 8px;
+    width:40%;
+    height:40%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+  }
+
+  @media only screen and (max-width: 800px) {
+    .class-img-blog {
+      width:70%;
+      height:70%;
+    }
+  }
+
+  .class-img-about {
+    border-radius: 8px;
+    width:60%;
+    height:80%;
+    margin-top: 2%;
+  }
+  .section--make-fetch{
+  font-size: 2.5rem;
+  text-align: center;
+  color:#1890F9;
+  margin-top: 1%;
+}
+.section--make{
+  font-size: 1.5rem;
+  text-align: center;
+}
